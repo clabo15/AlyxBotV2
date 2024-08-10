@@ -17,7 +17,7 @@ public class RoastCommand : ModuleBase<SocketCommandContext>
     [Command("roast")]
     public async Task RoastCmd([Remainder] string user)
     {
-        if (user == "PopTart#1337" || user.ToLower() == "poptart" || user.Contains("tart"))
+        if (user == "user#1111" || user.ToLower() == "user" || user.Contains("user"))
         {
             await ReplyAsync("Ha you thought");
             return;
